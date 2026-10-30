@@ -1,7 +1,7 @@
-# cybersecurity_lab_setup_B084J_WK01
+# networkwalks_cybersecurity_lab_setup_B084J_WK01
 <div align="center">
 
-# 🔐 Cybersecurity Lab Environment Setup
+#  Cybersecurity Lab Environment Setup
 
 **A Virtual Cybersecurity Lab for Ethical Hacking, Penetration testing & Security Learning**
 </div>
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on setting up a **virtual cybersecurity laboratory** using Oracle VirtualBox and Kali Linux.
 
@@ -20,7 +20,7 @@ The lab was configured by installing VirtualBox, setting up Kali Linux as a virt
 ---
 
 
-## 🎯 Objectives
+##  Objectives
 
 The main objectives of this project are to:
 
@@ -36,14 +36,14 @@ The main objectives of this project are to:
 
 ---
 
-## 🛡️ Purpose of the Lab
+##  Purpose of the Lab
 
 The purpose of this lab is to create a virtual environment using Oracle VirtualBox and Kali Linux. It helps in understanding how virtual machines work and how to configure their network settings. The lab also focuses on setting up an IP address and establishing an internet connection. This environment will be used for learning basic networking and cybersecurity concepts through practical activities.
 
 
 ---
 
-## ⚙️ Lab Configuration
+##  Lab Configuration
 
 |    Component     |    Configuration   |
 | -----------------| -----------------  |
@@ -120,16 +120,16 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
-# 🔎 Lab Verification
+#  Lab Verification
 
-| ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
-| ----------------------------- | ------------------------------- | ------------------------------- |
-| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
-| 📡 Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
-| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
-| 🔎 Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
-| 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
-| 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
+|  Test                        |  Command                      |   Expected Result              |
+| ----------------------------- | -------------------------- | ------------------------------- |
+|  Check IP address           | `ip a`                          | Correct IP displayed           |
+|  Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
+|  Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
+|  Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
+|  Verify Nmap                | `nmap --version`                | Nmap version displayed          |
+|  Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
 
 ### Example Results
 
@@ -146,7 +146,7 @@ DNS:
 
 ---
 
-# 🐞 Problems Encountered & Solutions
+#  Problems Encountered & Solutions
 
 Documenting problems is an important part of the project.
 
@@ -168,7 +168,7 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 
 
-# 💡 What I Learned
+#   What I Learned
 
 - Through this project, I gained practical experience in:
 
@@ -187,15 +187,16 @@ The network connection was then restarted/rebooted and connectivity was tested a
 - Using Linux terminal commands for network verification.
 
 
-# 🔗 Tools & Resources
+#  Tools & Resources
 
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
 - **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
 
 ---
-
-
+# Author
+**Uswa Iftikhar**
+  Cybersecurity Intern
 
 ---
 
