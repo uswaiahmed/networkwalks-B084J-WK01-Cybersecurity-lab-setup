@@ -152,17 +152,17 @@ Documenting problems is an important part of the project.
 
 **Internet Connectivity After Static IP Configuration**
 
-After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
+The most common issue that is usually faced by users is internet connectivity on kali linux usually on the 2026 version.
 
-One workaround used during this lab was:
+However I overcame this issue by running some commands in the terminal.
 
-```bash
+The commands are: 
+
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
-```
+sudo nmcli connection down "Wired connection 1"
+sudo nmcli connection up "Wired connection 1"
 
-The network connection was then restarted/rebooted and connectivity was tested again.
-
-> **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
+The network connection was then restarted and connectivity was tested again.
 
 ---
 
@@ -196,7 +196,7 @@ The network connection was then restarted/rebooted and connectivity was tested a
 ---
 # Author
 **Uswa Iftikhar**
-  Cybersecurity Intern
+- Cybersecurity Intern
 
 ---
 
