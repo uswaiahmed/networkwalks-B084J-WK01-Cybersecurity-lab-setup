@@ -77,6 +77,7 @@ Oracle VirtualBox was installed to create and manage virtual machines.
 ## Step 3. Create the NAT Network
 
 A dedicated NAT Network was created in VirtualBox.
+
 ![VirtualBox Lab Setup](Screenshot%202026-10-30%20193653.png)
 
 
@@ -85,6 +86,7 @@ A dedicated NAT Network was created in VirtualBox.
 ## Step 4. Import Kali Linux
 
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
+
 ![Kali Linux](Kali_linux.png)
 
 
@@ -94,6 +96,7 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 ## Step 5. Configure the Kali Linux Network
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+
 ![Kali Linux Network Setup](Kali_linux_Network_Setup.png)
 
 ---
@@ -102,10 +105,10 @@ The Kali Linux network configuration was checked and configured with a consisten
 
 After completing the initial configuration, a VirtualBox snapshot was created.
 
-Example snapshot name:
+Snapshot name:
 
 ```text
-Clean Kali - Network Setup
+Kali Linux Setup Snapshot
 ```
 
 The snapshot represents the clean baseline of the laboratory.
@@ -145,7 +148,7 @@ DNS:
 
 Documenting problems is an important part of the project.
 
-## Problem 1. Internet Connectivity After Static IP Configuration
+**Internet Connectivity After Static IP Configuration**
 
 After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
 
@@ -161,63 +164,26 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 ---
 
-## Problem 2. VirtualBox VT-x / Virtualization Error
 
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
-
-The issue was resolved by:
-
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
-
-After enabling virtualization, the VM started successfully.
-
-
----
 
 # 💡 What I Learned
 
-Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
+- Through this project, I gained practical experience in:
 
-The most important concepts I learned include:
+- Installing and configuring Oracle VirtualBox.
 
-### 1. NAT vs NAT Network
+- Setting up Kali Linux as a virtual machine.
 
-A standard NAT configuration and a NAT Network serve different purposes.
+- Understanding virtualization.
 
-A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
+- Configuring NAT Network mode.
 
-This makes it useful for building a multi-machine cybersecurity laboratory.
+- Working with IP addresses and gateways.
 
-### 2. Virtual Machine Networking
+- Establishing internet connectivity.
 
-I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+- Using Linux terminal commands for network verification.
 
-### 3. Static IP Configuration
-
-I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
-
-### 4. VM Snapshots
-
-I learned that a clean snapshot should be created **before performing risky or experimental activities**.
-
-This provides a known-good recovery point for future cybersecurity exercises.
-
-### 5. Documentation
-
-I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
-
----
-
-# 🔐 Security & Ethical Use
-
-This laboratory is intended strictly for education purposes only.
-
----
 
 # 🔗 Tools & Resources
 
@@ -227,12 +193,7 @@ This laboratory is intended strictly for education purposes only.
 
 ---
 
-# 👤 Author
 
-**Waqas Karim**\
-Cybersecurity Professional B082
-
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
 
 ---
 
