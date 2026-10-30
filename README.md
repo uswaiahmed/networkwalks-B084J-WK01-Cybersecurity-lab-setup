@@ -156,13 +156,27 @@ The most common issue that is usually faced by users is internet connectivity on
 
 However I overcame this issue by running some commands in the terminal.
 
-The commands are: 
+The following commands were used to modify the network connection settings and restart the network connection in Kali Linux.
 
-</> Bash
+**1. Modify the network connection:**
 
+```bash
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
+```
+
+**2. Disconnect the network connection:**
+
+```bash
 sudo nmcli connection down "Wired connection 1"
+```
+
+**3. Reconnect the network connection:**
+
+```bash
 sudo nmcli connection up "Wired connection 1"
+```
+
+These commands configure the IPv4 Duplicate Address Detection timeout and restart the selected network connection to apply the changes.
 
 The network connection was then restarted and connectivity was tested again.
 
