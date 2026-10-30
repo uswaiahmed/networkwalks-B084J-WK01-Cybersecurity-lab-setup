@@ -66,13 +66,11 @@ The purpose of this lab is to create a virtual environment using Oracle VirtualB
 
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a `.7z` archive.
 
-**Tool:** 7-Zip
-
 ---
 
 ## Step 2. Install VirtualBox
 
-VirtualBox was installed as the hypervisor.
+Oracle VirtualBox was installed to create and manage virtual machines.
 
 ---
 
