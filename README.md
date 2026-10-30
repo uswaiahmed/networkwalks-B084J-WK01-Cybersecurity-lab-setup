@@ -11,11 +11,11 @@
 
 ## 📌 Project Overview
 
-This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
+This project focuses on setting up a **virtual cybersecurity laboratory** using Oracle VirtualBox and Kali Linux.
 
-The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
+The purpose of the lab is to set up a virtual environment to learn cybersecurity and networking fundamentals.
 
-The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
+The lab was configured by installing VirtualBox, setting up Kali Linux as a virtual machine, configuring its IP address, and establishing internet connectivity through a NAT Network.
 
 ---
 
@@ -24,61 +24,39 @@ The lab is configured on a private virtual network so that additional machines c
 
 The main objectives of this project are to:
 
+- Install 7-zip file.
 - Install and configure VirtualBox.
 - Install/import Kali Linux as a virtual machine.
-- Create a private **NAT Network** for the cybersecurity lab.
+- Create **NAT NETWORK** on your VirtualBox.
 - Configure network connectivity for Kali Linux.
 - Assign a consistent IP address to the Kali VM.
 - Verify network connectivity and DNS resolution.
 - Take a clean VM snapshot for recovery.
 - Document the complete setup process.
-- Prepare the environment for future cybersecurity projects.
 
 ---
 
 ## 🛡️ Purpose of the Lab
 
-The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
+The purpose of this lab is to create a virtual environment using Oracle VirtualBox and Kali Linux. It helps in understanding how virtual machines work and how to configure their network settings. The lab also focuses on setting up an IP address and establishing an internet connection. This environment will be used for learning basic networking and cybersecurity concepts through practical activities.
 
-It can be used for activities such as:
-
-- Network reconnaissance
-- Port scanning
-- Vulnerability assessment
-- Packet analysis
-- Web security testing
-- Exploitation practice
-- Security-tool experimentation
-
-⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
-
----
-
-## 🏗️ Lab Architecture
-
-![](1-screenshot-title-image.png)
-
-
-Additional target machines can be added to the same virtual network in future projects.
 
 ---
 
 ## ⚙️ Lab Configuration
 
-| 🧩 Component       | ⚙️ Configuration   |
-| ------------------ | ------------------  |
-| 🖥️ Host OS         | Windows 10         |
-| 🧠 Host RAM        | 8 GB               |
-| ⚡ Processor       | Intel Core i7      |
-| 🧰 Hypervisor      | VirtualBox 7.2  |
-| 🐉 Security OS     | Kali Linux 2026.2  |
-| 🧠 Kali RAM        | 2048 MB            |
-| 🌐 Virtual Network | NAT Network        |
-| 📡 Network Address | 10.0.0.0/24        |
-| 🐧 Kali IP Address | 10.0.0.2/24        |
-| 🚪 Default Gateway | 10.0.0.1           |
-| 🌍 DNS Server      | 8.8.8.8            |
-| 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+|    Component     |    Configuration   |
+| -----------------| -----------------  |
+|  Host OS         | Windows 11         |
+|  Processor       | Intel Core i3      |
+|  Hypervisor      | VirtualBox 7.2.22  |
+|  Security OS     | Kali Linux 2026.3  |
+|  Virtual Network | NAT Network        |
+|  Network Address | 10.0.0.0/24        |
+|  Kali IP Address | 10.0.0.2/24        |
+|  Gateway         | 10.0.0.1           |
+|  DNS Server      | 10.0.0.1           |
+
 
 ---
 
