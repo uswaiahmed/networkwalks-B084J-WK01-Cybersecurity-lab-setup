@@ -77,7 +77,7 @@ Oracle VirtualBox was installed to create and manage virtual machines.
 ## Step 3. Create the NAT Network
 
 A dedicated NAT Network was created in VirtualBox.
-
+![VirtualBox Lab Setup](Screenshot%202026-10-30%20193653.png)
 
 
 ---
@@ -85,7 +85,7 @@ A dedicated NAT Network was created in VirtualBox.
 ## Step 4. Import Kali Linux
 
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
-
+![Kali Linux](Kali_linux.png)
 
 
 
@@ -94,12 +94,7 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 ## Step 5. Configure the Kali Linux Network
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
-
-
-
-A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
-
-![](4-screenshot-kali_linux_Network_Setup.png)
+![Kali Linux Network Setup](Kali_linux_Network_Setup.png)
 
 ---
 
