@@ -78,17 +78,6 @@ Oracle VirtualBox was installed to create and manage virtual machines.
 
 A dedicated NAT Network was created in VirtualBox.
 
-Configuration:
-Network Name: NatNetwork
-IPv4 Prefix:  10.0.0.0/24
-DHCP:         Enabled
-IPv6:         Disabled
-
-![](2-Screenshot 2026-10-30 193653.png)
-
-A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
-
-This will allow future attacker and target VMs to communicate within the lab.
 
 
 ---
@@ -97,22 +86,6 @@ This will allow future attacker and target VMs to communicate within the lab.
 
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
 
-The VM network adapter was configured as follows:
-
-```text
-Adapter 1
-Attached to: NAT Network
-Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop
-```
-
-The VM was allocated:
-
-```text
-RAM: 2048 MB
-```
-![](3-screenshot-kali-linux.png)
-A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
 
@@ -122,18 +95,11 @@ A shared folder was also configured for transferring required files between the 
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
-Example configuration:
 
-```text
-IP Address: 10.0.0.2
-Subnet Mask: 255.255.255.0
-Gateway: 10.0.0.1
-DNS: 8.8.8.8
-```
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+![](4-screenshot-kali_linux_Network_Setup.png)
 
 ---
 
