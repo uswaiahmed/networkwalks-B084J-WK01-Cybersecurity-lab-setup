@@ -158,6 +158,8 @@ However I overcame this issue by running some commands in the terminal.
 
 The commands are: 
 
+</> Bash
+
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 sudo nmcli connection down "Wired connection 1"
 sudo nmcli connection up "Wired connection 1"
