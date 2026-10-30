@@ -110,6 +110,8 @@ Snapshot name:
 ```text
 Kali Linux Setup Snapshot
 ```
+![VirtualBox Lab Setup](Screenshot%202026-10-30%20230734.png)
+
 
 The snapshot represents the clean baseline of the laboratory.
 
